@@ -21,6 +21,7 @@ step 3 : steps up virtual environment for flask:::::::::::::::
 
 3> $python3 -m venv dbenv # while executing the command make sure you are in "db_project" directory, here we create a virtual environment for our project
 4> $ source dbenv/bin/activate #this will activate the Virtual environment for us to work on.
+5> $pip install requirements.txt #installs all the dependences for this project
 5> $python3 crud.py # runs the .py app
 6> the app runs on local machine port 8001.
 
